@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizi CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        body {
+            margin: 0px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .main-section { 
+            padding: 20px;
+        }
+        .image-container {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/CervinoAug252023_03.jpg/1280px-CervinoAug252023_03.jpg');
+            height: 500px;
+            background-size: contain;
+            width: 100%;
+        }
+        h1 {
+            font-family: 'Prata', serif;
+            font-size: 64px;
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+        h3 {
+            font-family: 'Prata', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        h6 {
+            padding: 22px;
+            margin-top: 56px;
+            margin-bottom: 0px;
+            color: white;
+            border-radius: 6px;
+            background: linear-gradient(to right, #000655, #6250ff);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0px;
+        }
+        li {
+            padding: 6px 0px 6px 22px;
+        }
+        .link-lista {
+            text-decoration: none;
+            color:#000655;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-section">
+    <div class="image-container"></div>
+    <h1>Cervinia</h1>
+    <h3>Italy</h3>
+    <a href="https://commons.wikimedia.org/wiki/User:Agmonsnir" style="font-weight: 600; font-style:italic"><p>Hagai Agmon-Snir (Wikipedia)</p></a>
+    <h6>Corralted places:</h6>
+    <ul>
+        <li><a href="zermatt.html" class="link-lista">Zermatt, Switzerland</a></li>
+        <li><a href="index.html" class="link-lista">Matterhorn, Switzerland</a></li>
+        <li><a href="hornly-hut.html" class="link-lista">Hornli Hut</a></li>
+        <li><a href="theodul-pass.html" class="link-lista">Theodul Pass</a></li>
+        <li><a href="gornergrat.html" class="link-lista">Gornergrat</a></li>
+    </ul>
+    </div>
+    <footer style="background-color: black; padding: 16px; text-align:center;">
+        <a href="index.html" style="color:white">Back to homepage</a>
+    </footer>
+</body>
+</html>
